@@ -12,14 +12,14 @@ export default function AboutPage() {
             {/* ABOUT ME */}
             <div className="about-me col-12 col-md-6">
                 <h1 className="about-hazel">I'M HAZEL</h1>
-                <p className="about-note">
+                {/* <p className="about-note">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at nisl et risus molestie sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque lorem sed tellus suscipit, eu pellentesque tortor finibus. Aliquam molestie lacus ac ante viverra, eget facilisis magna tempus.
-                </p>
-                {/* 
+                </p> */}
+
                 <p className='about-note'>
-                    I love coding! I have always been passionate about coding. The intricate logic behind it mesmerizes and encouragedme to learn more. I want to be a part of a company where I can contribute my knowledge.
-                </p> 
-                */}
+                    I have always been passionate about coding. The intricate logic behind it mesmerizes and encourages me to learn more. Aside from coding, I also study the Japanese Language as a hobby. My previous work experiences has taught me how to be flexible, work with a team, and manage time to accomplish tasks.
+                </p>
+
                 <a href="./Hazel-Garalde-CV.pdf" target="_blank" download>
                     <button id="about-btn">DOWNLOAD MY CV</button>
                 </a>
