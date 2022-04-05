@@ -1,0 +1,98 @@
+/* -------- START -------- For Contact Page */
+/* MAIN DIV */
+.contactDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  /* background: rgba(0, 0, 0, 0.1); */
+  row-gap: 30px;
+  /* width: 90%; */
+  /* height: 100%; */
+  /* border: 1px solid green; */
+}
+
+/* DIV FOR GET IN TOUCH */
+.contact-get {
+  text-align: center !important;
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+  color: #f9698d;
+  /* border: 1px solid red; */
+}
+
+/* DIV FOR MESSAGE */
+.contact-msg {
+  padding: 0 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  /* border: 1px solid violet; */
+}
+
+/* INPUT, TEXTAREA AND BTN */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 0 1rem;
+}
+
+form input,
+form button,
+form textarea {
+  border-radius: 4px;
+  text-indent: 15px;
+  width: 100%;
+  color: #534859;
+  border: 1px solid #f9698d;
+}
+
+/* SEND BTN */
+.contact-btn {
+  background: #f9698d !important;
+  color: #faf0e7;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+/* DIV FOR NUMBERS */
+.contact-num {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  color: #534859;
+  /* border: 1px solid blue; */
+}
+
+/* ALL CONTACT INFO */
+.contact-num > ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+/* for spacing of contact info */
+.contact-num > ul > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* CONTACT INFO with EXTERNAL LINKS*/
+a {
+  color: #534859 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #f9698d !important;
+}
+
+.fa-linkedin {
+  font-size: 1.35rem;
+}
+
+/* FACEBOOK, GITHUB AND GITLAB */
+.contactIcons {
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+/* -------- End -------- For Contact Page */

@@ -1,0 +1,82 @@
+/* -------- START -------- For Tech Page */
+
+/* TechStack Page */
+.techstackDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  row-gap: 10px;
+  /* width: 90%; */
+  /* border: 1px solid green; */
+}
+
+/* DIV FOR H1 TEXT ONLY */
+.tech {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+/* H1 TEXT CSS */
+.tech-h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  color: #f9698d;
+}
+
+/*------------- TechUsed Component -------------*/
+.techUsedDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  row-gap: 3rem;
+  padding: 15px;
+  /* border: 1px solid blue; */
+}
+
+/* INDIVIDUAL CARDS */
+.card {
+  /* background: pink !important; */
+  background: none !important;
+  border: none !important;
+  color: #534859;
+  justify-content: center;
+  min-width: min-content !important;
+  text-align: center;
+  width: 150px;
+}
+
+/* DIV THAT WILL DETERMINE THE WIDTH OF THE IMAGE */
+.cardImgDiv {
+  border-radius: 50%;
+  align-self: center;
+  width: 100%;
+
+  /* NO BG, PINK BORDER */
+  background: none;
+  border: 2px dashed #f9698d;
+
+  /* LIGHT PINK BG */
+  /* background: #fad0d1;
+
+  /* background: rgba(0, 0, 0, 0.1); */
+  margin-bottom: 5px;
+}
+
+/* IMAGE ELEMENT */
+.cardImg {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* TECH NAME */
+.cardName {
+  margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* -------- End -------- For Tech Page */
