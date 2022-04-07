@@ -36,6 +36,7 @@ font-family: 'Merriweather', serif;
   height: 16vh;
   z-index: 12;
   position: fixed;
+  border-bottom: 5px solid #534859;
   /* border: 1px solid red; */
 }
 
@@ -80,7 +81,6 @@ font-family: 'Merriweather', serif;
   /* height: 85vh; */
 }
 
-.hrline,
 .footerDiv {
   width: 100%;
   border-top: 5px solid #534859;

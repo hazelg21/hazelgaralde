@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <AppNavbar />
-        <div className='hrline'></div>
       </header>
       <main className="App-main">
         <HomePage />
