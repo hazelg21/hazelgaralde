@@ -15,7 +15,7 @@ export default function HomePage() {
             {/* IMAGE */}
             <div className="home-pic col-12 col-md-6">
                 <div className="home-img">
-                    <img className="home-logo" alt="hazel-picture" variant="top" src={require('../images/img-home.jpg')}></img>
+                    <img className="home-logo" alt="Hazel Garalde" variant="top" src={require('../images/img-home.jpg')}></img>
                 </div>
             </div>
         </div>

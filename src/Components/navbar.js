@@ -7,7 +7,7 @@ export default function AppNavbar() {
             <Container className="navContainer">
                 <div className="nav-logo">
                     <Link to="page-home" smooth={true} duration={500}>
-                        <img className="nav-img" variant="top" src={require('../images/logos/logo-gray-nobg.png')}></img>
+                        <img className="nav-img" alt="My Logo" variant="top" src={require('../images/logos/logo-gray-nobg.png')}></img>
                     </Link>
                 </div>
                 <Navbar.Toggle className="menu-icon" aria-controls="navbar-list" />
