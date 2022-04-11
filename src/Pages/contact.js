@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Swal from 'sweetalert2'
 import { FaPhone, FaEnvelope, FaLinkedin, FaMapMarkerAlt, FaFacebook, FaGithub, FaGitlab } from "react-icons/fa";
 
@@ -12,6 +12,9 @@ export default function ContactPage() {
 
     //BOOLEAN if form is complete
     const [isComplete, setIsComplete] = useState(false)
+
+    // for sending status
+    const [sendStatus, setSendStatus] = useState("SEND")
 
     // SEND EMAIL
     function sendEmail(e) {
@@ -46,6 +49,7 @@ export default function ContactPage() {
                                 text: 'Unable to send email at the moment please try again.'
                             })
                         }
+                        setSendStatus("SEND")
                     })
                 :
                 Swal.fire({
@@ -113,13 +117,19 @@ export default function ContactPage() {
                     <button
                         className="contact-btn"
                         type="submit"
-                        onClick={(e) => sendEmail(e)}
+                        onClick={(e) => {
+                            <React.Fragment>
+                                {isComplete ? setSendStatus("Sending Email...") : null}
+                            </React.Fragment>
+                            sendEmail(e)
+
+                        }}
 
                     //if form is complete set disable to false
                     // disabled={isComplete ? false : true}
 
                     // style={isComplete ? { background: "pink" } : { background: "#e8acb4" }}
-                    >SEND</button>
+                    >{sendStatus}</button>
                 </form>
 
             </div>
