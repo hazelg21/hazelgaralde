@@ -28,7 +28,7 @@
 
 /* DIV WHERE THE IMAGE ELEMENT WILL GET THE SIZE */
 .home-img {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   /* border: 1px solid blue; */
@@ -36,7 +36,8 @@
 
 /* IMAGE ELEMENT */
 .home-logo {
-  width: 90%;
+  width: 100%;
+  object-fit: contain !important;
   /* border: 1px solid red; */
 }
 
