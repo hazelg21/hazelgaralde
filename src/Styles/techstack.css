@@ -46,6 +46,7 @@
   min-width: min-content !important;
   text-align: center;
   width: 150px;
+  margin-top: 20px;
 }
 
 /* DIV THAT WILL DETERMINE THE WIDTH OF THE IMAGE */
