@@ -75,7 +75,7 @@ export default function ContactPage() {
 
 
     return (
-        <div className="contactDiv">
+        <div className="contactDiv" id="page-contact">
 
             {/* GET IN TOUCH TEXT ONLY */}
             <div className="contact-get col-12">
@@ -125,7 +125,7 @@ export default function ContactPage() {
             </div>
 
             {/* CONTACT INFO */}
-            <div className="contact-num col-12 col-md-6" id="page-contact">
+            <div className="contact-num col-12 col-md-6" >
                 <ul>
                     <li>
                         <FaPhone /> 0999-983-5248 / 0975-687-0864

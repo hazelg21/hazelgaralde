@@ -46,6 +46,7 @@ form textarea {
   width: 100%;
   color: #534859;
   border: 1px solid #f9698d;
+  margin-bottom: 10px;
 }
 
 /* SEND BTN */
