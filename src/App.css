@@ -54,8 +54,8 @@ font-family: 'Merriweather', serif;
   /* DARK */
   /* background-color: #282c34; */
 
-  padding-top: 50px;
-  row-gap: 150px;
+  /* padding-top: 50px; */
+  /* row-gap: 150px; */
   width: 100vw;
   /* height: (85vh * 5); */
   top: 16vh;
@@ -77,16 +77,18 @@ font-family: 'Merriweather', serif;
 .homeDiv,
 .portfolioDiv,
 .techstackDiv {
+  margin-top: 150px;
   width: 90%;
   /* height: 85vh; */
 }
 
+/* FOOTER */
 .footerDiv {
   width: 100%;
   border-top: 5px solid #534859;
+  margin-top: 100px;
 }
 
-/* FOOTER */
 .footerDiv {
   padding-top: 1rem;
   text-align: center;
