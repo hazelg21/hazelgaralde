@@ -45,6 +45,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* border: 1px solid yellow; */
 }
 
@@ -55,6 +56,7 @@
   font-weight: bold !important;
   padding: 0.5rem 1.5rem !important;
   min-width: fit-content !important;
+  /* border: 1px solid red; */
 }
 
 /* INDIVIDUAL ITEM IN MENU */
