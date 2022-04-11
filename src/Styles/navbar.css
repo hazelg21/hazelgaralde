@@ -7,7 +7,6 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   justify-content: center !important;
-  padding: 0 2rem !important;
   /* border: 1px solid blue; */
 }
 
@@ -27,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1rem;
   /* border: 1px solid black; */
 }
 
@@ -37,9 +37,9 @@
 }
 
 /* HAMBURGER ICON */
-/* .menu-icon {
+.menu-icon {
   margin-right: 2rem;
-} */
+}
 
 /*  MENU LIST */
 .menu-list {
