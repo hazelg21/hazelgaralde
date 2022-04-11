@@ -69,7 +69,7 @@ font-family: 'Merriweather', serif;
 .navDiv,
 .portfolioDiv,
 .techstackDiv {
-  /* border: 2px solid green; */
+  border: 2px solid green;
 }
 
 .aboutDiv,
